@@ -1,24 +1,24 @@
 # AluGames
 
-O **AluGames** é uma página web de aluguel de jogos de tabuleiro. O projeto permite alterar o status de cada jogo entre disponível e alugado por meio de uma interface simples e interativa.
+**AluGames** is a board game rental web page. The project allows users to switch each game between available and rented through a simple, interactive interface.
 
-Este projeto foi desenvolvido durante os estudos de lógica de programação da [Alura](https://www.alura.com.br/).
+This project was developed while studying programming logic at [Alura](https://www.alura.com.br/).
 
-## Funcionalidades
+## Features
 
-- Visualização dos jogos disponíveis para aluguel;
-- Alteração do status de um jogo para **alugado**;
-- Devolução de um jogo alugado;
-- Atualização do texto e do estilo do botão conforme o status do jogo;
-- Indicação visual dos jogos que estão alugados.
+- View board games available for rent;
+- Mark a game as **rented**;
+- Return a rented game;
+- Update the button text and style according to the game's status;
+- Visually identify rented games.
 
-## Tecnologias utilizadas
+## Technologies
 
 - HTML5;
 - CSS3;
 - JavaScript.
 
-## Estrutura do projeto
+## Project structure
 
 ```text
 alugames/
@@ -32,31 +32,31 @@ alugames/
 └── README.md
 ```
 
-## Como executar
+## How to run
 
-1. Clone este repositório ou faça o download dos arquivos.
-2. Abra a pasta do projeto.
-3. Abra o arquivo `index.html` em um navegador.
+1. Clone this repository or download the project files.
+2. Open the project folder.
+3. Open the `index.html` file in your browser.
 
-Não é necessário instalar dependências ou executar um servidor, pois o projeto utiliza apenas HTML, CSS e JavaScript puro.
+No dependencies or local server are required because the project uses only HTML, CSS, and vanilla JavaScript.
 
-## Como usar
+## How to use
 
-Clique no botão **Alugar** para marcar um jogo como alugado. O botão passará a exibir **Devolver** e a imagem receberá uma indicação visual de indisponibilidade.
+Click the **Alugar** button to mark a game as rented. The button will change to **Devolver**, and the game image will display a visual indication that it is unavailable.
 
-Para disponibilizar o jogo novamente, clique em **Devolver**.
+To make the game available again, click **Devolver**.
 
-## Objetivo de aprendizagem
+## Learning objectives
 
-O projeto pratica conceitos fundamentais de lógica de programação e manipulação do DOM, como:
+This project explores fundamental programming logic and DOM manipulation concepts, including:
 
-- Funções e parâmetros;
-- Estruturas condicionais;
-- Seleção de elementos HTML;
-- Manipulação de classes CSS;
-- Alteração de conteúdo textual com JavaScript;
-- Tratamento de eventos de clique.
+- Functions and parameters;
+- Conditional statements;
+- HTML element selection;
+- CSS class manipulation;
+- Text content updates with JavaScript;
+- Click event handling.
 
-## Autor
+## Author
 
-Desenvolvido como parte da formação da Alura.
+Developed as part of an Alura learning program.
